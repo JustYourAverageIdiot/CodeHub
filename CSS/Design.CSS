@@ -1,13 +1,14 @@
 body {
-    background-color: black
+    background-color: #FFC299
 }
 
 h1 {
-    color: aqua;
+    color: #B37D59;
     size: 26px;
+    background-color: #99FAFF;
 }
 
-p {
-    color: aqua;
-    size: 16px;
+div {
+    color: #B37D59;
+    background-color: #99FAFF;
 }
