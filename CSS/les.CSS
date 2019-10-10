@@ -4,26 +4,27 @@ body,html {
 }
 
 body {
-    background-color: rgb(15,15,15);
+    background-image: url(../void2.jpg);
 }
 
 #boven,#container {
-    width: 80%;
-
+    width: 97.5%;
 }
 
 #boven {
     background-color: rgb(20,20,20);
     height: 15%;
-    color: rgb(70,0,70);
+    color: rgb(160, 0, 160);
     font-size: 120px;
+    background-image: url(../brickwall1.jpg);
+    background-size: 35%;
 }
 
 #container {
     background-color: green;
-    height: 65%;
+    height: 80%;
     display: flex;
-}
+    }
 
 #Menu {
     background-color: rgb(30, 30, 30);
@@ -40,7 +41,7 @@ body {
 #Fotos {
     background-color: rgb(40,40,40);
     width: 20%;
-    height: 100%
+    height: 100%;
 }
 
 ul a {
@@ -61,4 +62,14 @@ ul a:hover{
 
 ul {
     list-style: none;
+}
+
+#Fotos img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#Fotos p {
+    text-align: center;
 }
