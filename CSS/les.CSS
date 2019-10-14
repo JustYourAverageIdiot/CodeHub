@@ -1,23 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+
 body,html {
     height: 100%;
     margin: 0;
+    font-family: 'Oxygen', sans-serif;
+
 }
 
 body {
-    background-image: url(../void2.jpg);
+    background-image: url(../SiberianTiger.jpg);
+    background-size: 100%
 }
 
 #boven,#container {
-    width: 97.5%;
+    width: 95%;
 }
 
 #boven {
-    background-color: rgb(20,20,20);
+    background-color: rgb(235,235,235);
     height: 15%;
-    color: rgb(160, 0, 160);
+    color: rgb(0,93,120);
     font-size: 120px;
-    background-image: url(../brickwall1.jpg);
-    background-size: 35%;
 }
 
 #container {
@@ -27,37 +30,38 @@ body {
     }
 
 #Menu {
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(225, 225, 225);
     width: 20%;
     height: 100%;
 }
 
 #Text {
-    background-color: rgb(50,50,50);
+    background-color: rgb(215,215,215);
     width: 60%;
     height: 100%;
 }
 
 #Fotos {
-    background-color: rgb(40,40,40);
+    background-color: rgb(225,225,225);
     width: 20%;
     height: 100%;
 }
 
 ul a {
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(205, 205, 205);
     display: block;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 30px;
     border-radius: 20px;
-    color: rgb(70,0,70);
+    color: rgb(0,93,120);
     text-align: center;
-    margin-top: 40px;
+    margin-top: 10px;
+    width: 85%;
 }
 
 ul a:hover{
-    background-color: rgb(70,70,70);
-    color: rgb(90,0,90);
+    background-color: rgb(185,185,185);
+    color: rgb(0, 70, 90);
 }
 
 ul {
@@ -68,6 +72,7 @@ ul {
     width: 80%;
     margin-left: 10%;
     margin-top: 5%;
+    border-radius: 20px;
 }
 
 #Fotos p {
