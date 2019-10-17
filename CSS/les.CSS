@@ -12,43 +12,70 @@ body {
     background-size: 100%
 }
 
-#boven,#container {
+#boven,#container,#Navigation {
     width: 95%;
 }
 
 #boven {
-    background-color: rgb(235,235,235);
+    background-color: rgb(255,255,255);
     height: 15%;
     color: rgb(0,93,120);
     font-size: 120px;
 }
 
+#Navigation {
+    height: 5%;
+    background-color: rgb(0,93,120);
+    display: flex;
+}
+
+#Navigation a {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 20px;
+    color: rgb(0,93,120);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+#Navigation a:hover{
+    background-color: rgb(235,235,235);
+    color: rgb(0, 70, 90);
+}
+
 #container {
     background-color: green;
-    height: 80%;
+    height: 75%;
     display: flex;
     }
 
 #Menu {
-    background-color: rgb(225, 225, 225);
-    width: 20%;
+    background-color: rgb(255, 255, 255);
+    width: 15%;
     height: 100%;
+    text-align: center;
+    color: rgb(0,93,120);
 }
 
 #Text {
-    background-color: rgb(215,215,215);
-    width: 60%;
+    background-color: rgb(235,235,235);
+    width: 65%;
     height: 100%;
 }
 
 #Fotos {
-    background-color: rgb(225,225,225);
+    background-color: rgb(255,255,255);
     width: 20%;
     height: 100%;
 }
 
 ul a {
-    background-color: rgb(205, 205, 205);
+    background-color: rgb(235, 235, 235);
     display: block;
     text-decoration: none;
     font-size: 30px;
@@ -60,7 +87,7 @@ ul a {
 }
 
 ul a:hover{
-    background-color: rgb(185,185,185);
+    background-color: rgb(215,215,215);
     color: rgb(0, 70, 90);
 }
 
@@ -77,4 +104,16 @@ ul {
 
 #Fotos p {
     text-align: center;
+}
+
+#ThisWebsite p {
+    font-size: 20px;
+}
+
+#ThisWebsite {
+    background-color: rgb(255,255,255);
+    display: block;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
 }
