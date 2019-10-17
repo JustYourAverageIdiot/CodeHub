@@ -44,12 +44,12 @@ body {
 }
 
 #Navigation a:hover{
-    background-color: rgb(235,235,235);
-    color: rgb(0, 70, 90);
+    background-color: rgb(0,70,93);
+    color: rgb(255,255,255);
 }
 
 #container {
-    background-color: green;
+    background-color: rgb(0,93,120);
     height: 75%;
     display: flex;
     }
@@ -75,12 +75,12 @@ body {
 }
 
 ul a {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(0,93,120);
     display: block;
     text-decoration: none;
     font-size: 30px;
     border-radius: 20px;
-    color: rgb(0,93,120);
+    color: rgb(255,255,255);
     text-align: center;
     margin-top: 10px;
     width: 85%;
